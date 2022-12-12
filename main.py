@@ -12,11 +12,13 @@ class Rectangle:
     def get_width(self):
         return self._b
 
-    def set_height(self, a):
-        self._a = a
 
-    def set_width(self, b):
-        self._b = b
+def set_height(self, a):
+    self._a = a
+
+
+def set_width(self, b):
+    self._b = b
 
 
 main_rect = Rectangle(5, 4)
